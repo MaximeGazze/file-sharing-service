@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300&family=Overpass:wght@300&display=swap');
+
+:root {
+    --color-white: #f2f4f3;
+    --color-light-grey: #cad4de;
+    --color-grey: #6c8091;
+    --color-dark-grey: #3f495b;
+    --color-secondary: #5c5f82;
+    --color-primary: #f1a5a0;
+    --color-accent: #efb8cc;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+    background-color: var(--color-light-grey);
+    /* font-family: 'Rubik', sans-serif; */
+    font-family: 'Overpass', sans-serif;
+}
+
+#app {
+    padding: 0.5rem;
+}
